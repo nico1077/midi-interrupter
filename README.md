@@ -3,6 +3,9 @@
 
 This is basically a code created to operate a Tesla coil. When a MIDI format sound source is input, the corresponding pulse wave is output. It also has a function as a function to generate a function and to directly output a single pulse wave without a computer.  
 
+## **使い方**
+STM32CubeIDEで新しくプロジェクトを作成したあと、
+
 NUCLEO-F446REというマイコンボードに書き込むことを想定しています。また、私が作成したコードはSTM32CubeIDEで書き込むことを前提としています。また、4行×20列のLCDモニタ(秋月電子通商にて販売されている型番:ACM2004D-FLW-FBW-IIC)に表示する機能を持っています。  
 このコードでは4つの機能があり、MODE_PULSE、MODE_MIDI、MODE_MIDI_LOUDNESS、FG(ファンクションジェネレータ機能)です。  
 
